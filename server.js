@@ -3,7 +3,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-var www = express.static(__dirname + '/www'));
+var www = express.static(__dirname + '/www');
 
 app.use('/', www);
 
